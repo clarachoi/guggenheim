@@ -2,15 +2,99 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>HTML Example 1</title>
+  <title>index</title>
+  <link rel="stylesheet" href="./css/minimal.css" media="screen" title="no title" charset="utf-8">
+  <style media="screen">
+    .hei{height:190px;}
+    .col-4 p {margin-bottom: 0;}
+  </style>
 </head>
 <body>
-  <h1>The Guggenheim Museums and Foundation</h1>
-  <hr>
-  <p>Visit the Frank Lloyd Wright-designed Guggenheim Museum in NYC. See the renowned permanent collection, special exhibitions.</p>
-  <img src="img1.jpg" alt="" style="width:600px;">
-  <br>
-  <a href="about.html">Go to About</a>
-  <!-- 구겐하임 미술관을 코디해봤음 -->
+  <div class="container">
+  	<header>
+  		<a class="logo" href="index.html">Guggenheim Museum Cummunity</a>
+  		<nav class="float-right">
+  			<ul>
+  				<li><a href="index.html">Home</a></li>
+  				<li><a href="about.html">About</a></li>
+  				<li><a href="pinterest.html">Gallery</a></li>
+  				<li><a href="blog.html">Blog</a></li>
+  				<li><a href="contact">Contact</a></li>
+  			</ul>
+  		</nav>
+  	</header>
+
+  	<div class="row">
+      <div class="col-12 hei" style="width:960px; height190px; overflow:hidden;">
+        <img src="./images/img1.jpg" alt="" width="960px" height="auto">
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+  		<div class="col-8">
+  			<h3>FEATURED TOPICS</h3>
+  			<hr>
+        <img class="float-right" src="./images/main1.jpg" width="240px" height="auto">
+        <h4>Guggenheim Collection</h4>
+  			<p class="text-justify">
+          In gallery space newly devoted to the permanent collection, the Guggenheim is showcasing its rich holdings of early modernism. The works on view show artists exploring the possibilities of abstraction and making some of the first forays into nonobjective painting.
+          <a href="#" class="more">&nbsp; More &rsaquo;</a>
+        </p>
+
+        <br>
+        <img class="float-right" src="./images/main2.jpg" width="240px" height="auto">
+        <h4>Thannhauser Gallery</h4>
+  			<p class="text-justify">
+          Upon his death in 1976, renowned art dealer Justin K. Thannhauser bequeathed more than seventy-five works from his collection of Impressionist, Post-Impressionist, and modern French masterpieces to the Guggenheim. The exhibition presents an unparalleled opportunity to examine the career of this pioneering artist.
+          <a href="#" class="more">&nbsp; More &rsaquo;</a>
+        </p>
+        <br><br>
+        <h3>GUGGENHEIM BLOGS</h3>
+        <hr>
+  			<div class="row">
+  				<div class="col-4">
+  					<h4>Art, Design, Play</h4>
+  					<p>Moholy-Nagy is the first major retrospective of this influential artist’s work in the United States.</p>
+            <a href="#" class="more">More &rsaquo;</a>
+  				</div>
+  				<div class="col-4">
+  					<h4>Watercolors</h4>
+  					<p>Artist George Grosz’s watercolor collection Ecce Homo is a vicious satire of post-war German life.</p>
+            <a href="#" class="more">More &rsaquo;</a>
+  				</div>
+  				<div class="col-4">
+  					<h4>On the MAP</h4>
+  					<p>In our latest monthly update from the Guggenheim UBS MAP Global Art Initiative.</p>
+            <a href="#" class="more">More &rsaquo;</a>
+  				</div>
+  			</div>
+  		</div><!-- //col-8 -->
+
+  		<div class="col-3 float-right">
+          <div class="row">
+  				  <h4>GUGGENHEIM LINKS</h4>
+  					<ul>
+              <li><a href="signup.html">JOIN & SIGNUP</a></li>
+              <li><a href="#">RESEARCH</a></li>
+  						<li><a href="#">ENGAGE</a></li>
+  						<li><a href="#">SHOP</a></li>
+  					</ul>
+            <hr>
+          </div>
+          <div class="row">
+      			<h4>VISIT</h4>
+            <img src="./images/visit.jpg" width="230px" height="auto">
+            <p>1071 5TH AVE, NEW YORK, NY BETWEEN 88TH & 89TH ST.</p>
+      			<p><b>Pay What You Wish:</b><br>Every Saturday, from 5:45–7:45 pm, visitors can pay what they wish for admission. Suggested admission is $10 and the last ticket is issued at 7:15 pm. A line forms at 5:15 pm.</p>
+          </div>
+  			  <!-- <div class="hr"></div> -->
+  		</div><!-- //col-3 -->
+  	</div><!-- row -->
+
+  	<footer>
+  			&copy; 2016 Clara Design. All Rights Reserved. <!-- Link not required, but appreciated. --><a class="float-right" href="mailto:ymichoi@gmail.com">Clara Youngmi Choi</a>
+
+  	</footer><!-- footer -->
+  </div><!-- //container -->
 </body>
 </html>

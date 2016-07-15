@@ -1,0 +1,30 @@
+#container{width:800px; margin:0 auto;}
+#header{background-color: #80C87B;height: 50px;}
+#nav{background-color: #758684;height: 50px;}
+#content{background-color: #F2F1EC;padding: 10px 20px;}
+#content h1{color: #568203;border: 1px solid #87A96B;padding: 10px;}
+#content p.box{border: 1px solid #87A96B;padding: 10px;}
+#content .box{box-sizing: border-box;} /* width와 height의 값이 존재할때 박스사이징값을 주는게좋다 */
+#content p > span{color: #568203;font-weight: bold;border: 1px solid #87A96B;padding: 1px;}
+#content p > span.italic{font-style: italic;}
+#content p > span.under{text-decoration: underline;}
+#footer{background-color: #635A5F;height: 50px;}
+
+input {
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #665544;
+  color: #333;
+  margin-bottom: 10px;
+}
+input.submit:hover {
+  background-color: #665544;
+}
+input.submit:active {
+  background-color: chocolate;
+}
+input.text {
+  color: #cccccc;
+}
+input.text:focus {
+  color: #665544;
+}

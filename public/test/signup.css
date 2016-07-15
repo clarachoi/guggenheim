@@ -1,0 +1,28 @@
+/*----*/
+/*.signin { background: #fff; padding: 2em 2em; border: 10px double #C04270; }*/
+.signin{ text-align:left; }
+.signin h3 { font-size: 2em; color: #000; font-weight:bold;	font-family: 'Josefin Slab', serif; }
+.signin p { font-size: 0.9em; color: #acacac; margin: 1em 0 1.5em; line-height: 1.7em; }
+.signin-t{ float:left; width:48%;	margin-right: 3%; }
+.signin-t1{	float:right; width:48%; }
+.signin h5 { font-size: 1em; color: #ccc; text-align: center; margin:1.5em 0; }
+.signin input[type="text"] { font-size: 1em; font-weight: 500; color: #ccc; padding:0.7em 1em; width: 90%; outline: none; border: 1px solid #ccc; font-family: 'Roboto Condensed', sans-serif; margin-bottom: 1em; }
+.signin input[type="password"] { font-size: 1em; font-weight: 500; color: #ccc; padding: 0.7em 1em; width: 90%; outline: none; border: 1px solid #ccc; font-family: 'Roboto Condensed', sans-serif; margin-bottom: 1em; }
+.signin input[type="submit"] { font-size: 1em; color: #fff; background:#38BB41; border: none; padding: 0.7em 0em; width: 70%; outline: none; cursor: pointer; font-family: 'Roboto Condensed', sans-serif; margin: 0em auto; }
+.signin input[type="submit"]:hover{ background:#C14173; transition: 0.5s all; -webkit-transition: 0.5s all; -moz-transition: 0.5s all; -o-transition: 0.5s all; }
+.sign-in{ margin-top:2em; }
+/*----*/
+ul.with-login { padding: 0px; list-style: none; width: 80%; margin: 0 auto; }
+ul.with-login li { display: inline-block; width: 47%; margin-right: 6%; float: left; }
+ul.with-login li:nth-child(2) { margin-right: 0%; }
+ul.with-login li a { font-size: 1em; color: #fff; padding:11px 0; display: block; background:#0172B8; }
+ul.with-login li a:hover { background: #024E7E; }
+ul.with-login li a.tww { background:#1FB2E6; }
+ul.with-login li a.tww:hover { background: #4FCCF9; }
+ul.with-login li a i { background: url(../images/btn/fa.png)no-repeat 0px 1px; width:16px; height:16px; display:inline-block; margin-right: 5%; vertical-align: text-top; }
+ul.with-login a i.tw { background:url(../images/btn/tw.png)no-repeat 0px 1px; width:16px; height:16px; display:inline-block; }
+/*----*/
+.lost-top p{ font-size: 1em; color: #acacac; margin:1em 0 0em; text-align:center; }
+.lost-top p a{ color: #acacac; text-decoration:none; }
+.lost-top p a i{ background: url(../images/btn/ar.png)no-repeat 0px 3px; width: 16px; height: 16px; display: inline-block; margin-left: 1.5%; }
+.lost-top p a i.left-arrow{ background: url(../images/btn/ar1.png)no-repeat 0px 3px; margin-right: 1.5%; margin-left:0; }
